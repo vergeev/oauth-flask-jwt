@@ -1,5 +1,5 @@
 CREATE DATABASE authdb_dev
-    WITH 
+    WITH
     OWNER = postgres
     ENCODING = 'UTF8'
     LC_COLLATE = 'English_United States.1252'
@@ -21,4 +21,3 @@ CREATE TABLE public.blacklist
 (
     token character varying(256) COLLATE pg_catalog."default" NOT NULL
 )
-

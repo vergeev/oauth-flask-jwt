@@ -5,6 +5,7 @@ from sqlalchemy.ext.declarative import DeclarativeMeta
 __all__ = ["Client", "TokenBlacklist"]
 
 db = SQLAlchemy()
+
 # mypy workaround, see https://github.com/dropbox/sqlalchemy-stubs/issues/76#issuecomment-595839159
 BaseModel: DeclarativeMeta = db.Model
 

@@ -10,3 +10,6 @@ Follows [this tutorial](https://github.com/grizzlypeaksoftware/flask-auth-servic
 As a way to spin-up Postgres, I used [this tutorial](https://levelup.gitconnected.com/creating-and-filling-a-postgres-db-with-docker-compose-e1607f6f882f).
 
 Developer dependencies, such as linters and formatters, are managed by [pre-commit](http://pre-commit.com).
+
+In order to run the project, do `flask run` inside your virtual environment.
+Flask [will load](https://flask.palletsprojects.com/en/2.1.x/cli/#environment-variables-from-dotenv) the environment variables from the dotenv automatically.

@@ -1,2 +1,2 @@
-# docker-compose volume for storing postgres data
-postgres-data/
+postgres-data
+.pytest_cache
